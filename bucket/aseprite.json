@@ -23,8 +23,8 @@
             ]
         ],
     "checkver": {
-        "github": "https://github.com/thecats1105/aseprite-builder",
-        "regex": "/releases/tag/v([\\d.]+)\""
+        "url": "https://aseprite-builder.thecats1105.workers.dev/versions",
+        "jsonpath": "$.latest"
     },
     "autoupdate": {
         "architecture": {
